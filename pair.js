@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*DARK WOLF [The POWERFUL WA BOT]*\n\n👉 ${string_session} 👈\n\n*Hello don not do any shit with this*`;
+            const sid = `*DARK WOLF [The POWERFUL WA BOT]*\n\n👉 ${string_session} 👈\n\n*Hello  do not do any shit with this*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
