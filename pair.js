@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fwolf-neon-2k-wallpaper-hdwallpaper-desktop--638103840953229229%2F&psig=AOvVaw0nRF-1HuAogQ1A1T0zFL-7&ust=1753071909595000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDxlenzy44DFQAAAAAdAAAAABAe",
+                url: "https://www.pinterest.com/pin/1055599907880478/",
               },
               caption: sid,
             });
