@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*DARK WOLF [The POWERFUL WA BOT]*\n\n👉 ${string_session} 👈\n\n*Hello don not do any shit with this*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fwolf-neon-2k-wallpaper-hdwallpaper-desktop--638103840953229229%2F&psig=AOvVaw0nRF-1HuAogQ1A1T0zFL-7&ust=1753071909595000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDxlenzy44DFQAAAAAdAAAAABAe",
               },
               caption: sid,
             });
